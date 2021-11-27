@@ -1,3 +1,4 @@
+% REF: https://www.mathworks.com/help/serdes/ref/pulse2pda.html
 % load('PulseResponseReflective100ps.mat');
 % M = 2;
 % DC = false;
@@ -11,6 +12,7 @@
 % title('Peak Distortion Analysis Eye')
 % grid on
 
+% REF: https://www.mathworks.com/help/serdes/ref/pulse2stateye.html
 load('PulseResponseReflective100ps.mat');
 modulation = 2;
 [stateye,vh,th] = pulse2stateye(pulse,SamplesPerSymbol,modulation);
